@@ -1,22 +1,22 @@
-# Object Composition in Ruby: Demo & Live-Code
+# Object Composition Live-Code
 
 ## Learning Goals
 
-- Have concrete examples and strategies of Ruby syntax to model one-to-one relationships
-- Have concrete examples and strategies of Ruby syntax to model one-to-many relationships
+- Have concrete examples and strategies of Ruby syntax that model one-to-one relationships
+- Have concrete examples and strategies of Ruby syntax that model one-to-many relationships
 
 ## What's in this Repo
 
 - `main.rb`
-    - This is a file that loads all of the other files. It contains recommended comments and puts statements about what to cover and how, though instructors should feel empowered to use or change whatever feels most appropriate
+    - This is a file that loads all of the other files. It contains recommended comments and `puts` statements about what to cover and how, though instructors should feel empowered to use or change whatever feels most appropriate
 - `order.rb`
-    - Defines the class `Order` and the attributes `id` and `shipment`
+    - Defines the class `Order` with the attributes `id` and `shipment`
 - `shipment.rb`
-    - Defines the class `Shipment` and the attributes `tracking_number`
+    - Defines the class `Shipment` with the attributes `tracking_number`
 - `merchant.rb`
-    - Defines the class `Merchant` and the attributes `name` and `products`
+    - Defines the class `Merchant` with the attributes `name` and `products`
 - `product.rb`
-    - Defines the class `Product` and the attribute `name`
+    - Defines the class `Product` with the attribute `name`
 
 ### Instructors
 
@@ -32,6 +32,10 @@ To summarize:
 
 - To _read_ one-to-one relationships, we _read_ instance variables using the dot syntax
 - To _set_ one-to-one relationships, we should be assigning values to instance variables
+
+### Demo
+
+Run through the first comment section in `main.rb`.
 
 ### Questions for during or after the Demo
 
@@ -49,6 +53,10 @@ To summarize:
 
 - To _read_ one-to-many relationships, we _read_ instance variables using the dot syntax and get back an array
 - To _set_ one-to-one relationships, we should be assigning values to instance variables, or pushing/modifying existing instance variables
+
+### Demo
+
+
 
 ### Questions for during or after the Demo
 
